@@ -1,0 +1,195 @@
+@charset "ISO-8859-1";
+/*Heading Name*/
+.HeadName{
+
+    padding-left: 110px;
+    padding-top: 5px;
+    padding-bottom:25px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: cursive;
+    font-size: 25px;
+}
+/*-------------------NAVIGATION----------------------------------------------*/
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 18px 40px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 24px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 18px 16px;
+    background-color: inherit;
+    font-family: inherit;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/*----------------------SEARCH BUTTON-------------------------------------------*/
+.search-container {
+
+  margin-left: 1450px;
+  margin-top: -38px;
+
+  
+}
+
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: -1px;
+  margin-right: 233px;
+  background: #ddd;
+  font-size: 11px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: rgb(255, 0, 0);
+}
+/*----------------------LOGIN BUTTON-------------------------------------------*/
+.Login {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  /* Green */
+  .Login {
+    color: rgb(255, 51, 0);
+    font-size: 18px;
+  }
+  
+  .Login:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }
+.Lpos{
+    margin-top: -210px;
+  margin-left: 1610px;  
+}
+/*---------------------CART BUTTON------------------------------------------*/
+.cart{
+    margin-top: -43px;
+  margin-left: 1795px;    
+}
+/*--------------------HEART BUTTON------------------------------------------*/
+.heart{
+    margin-top: -31px;
+  margin-left: 1850px;    
+}
+/*--------------------CONTACT US PAGE START------------------------------------------*/
+/*--------------------HEADINGS------------------------------------------*/
+.ConUs{
+    margin-top: 250px;
+    margin-left: 180px;   
+    font-size: 20px;
+}
+/*--------------------MAIN PICTURE------------------------------------------*/
+.ConMain{
+    margin-left: 140px; 
+}
+/*--------------------MAIN FORM------------------------------------------*/
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-color: rgb(189, 18, 18);
+  border-radius: 25px;
+}
+
+input[type=submit] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  outline: none;
+  border-color: rgb(177, 19, 19);
+  box-sizing: border-box;
+  border-radius: 200px;
+  margin-left: 1470px;
+  width: 20%;
+  font-size: 20px;
+  background-color: rgb(238, 43, 43);
+
+}
+
+input[type=submit]:hover {
+  background-color: #ff0000;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #dbd9d9;
+  padding: 20px;
+}
+
+.Cn{
+    margin-left: 130px;
+}
+
+/*-------------------BOT----------------------------------------*/
+.Bot{
+  padding-top:100px;
+  margin-left: 20px;  
+  }
+
